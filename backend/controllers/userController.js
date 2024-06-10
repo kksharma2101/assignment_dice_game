@@ -1,4 +1,4 @@
-import User from "../model/userSchema";
+import User from "../model/userSchema.js";
 
 //
 const cookiOption = {
