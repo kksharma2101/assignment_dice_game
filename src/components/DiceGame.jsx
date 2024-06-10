@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const DiceGame = () => {
-    const [stack, setStack] = useState(0);
+    const [stack, setStack] = useState(5000);
     const [bet, setBet] = useState(null);
     return (
         <div className='w-full flex items-center justify-center flex-col'>
